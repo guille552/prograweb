@@ -121,5 +121,47 @@ main .main-buttons button:hover{
     color: #222;
 }
 main .redireccion{
-    margin-top: 30px;
+    margin-top: 25px;
+}
+footer{
+    bottom: 0;
+    width: 100%;
+    position: absolute;
+    align-items: center;
+    background-color: #e3e3e3;
+    border-top: 1px solid #d6d6d6;
+}
+footer .top{
+    margin-left: 40px;
+    list-style: none;    
+}
+footer .top .marge {
+    margin-top: 15px;
+}
+footer .bottom{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 10px;
+}
+footer ul{
+    display: flex;
+    list-style: none;
+    margin: 12px;
+    padding-left: 0; 
+}
+
+footer .footer-left{
+    margin-left: 20px;
+    justify-self: start;
+}
+footer .footer-right{
+    justify-content: right;
+    margin-right: 30px; 
+}
+footer div ul li a{
+    margin: 20px;
+    color: #303030;
+}
+footer .top .marge a{
+    color: #303030;
 }
